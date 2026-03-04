@@ -16,8 +16,8 @@ const teamMembers: TeamMember[] = [
     name: "Harshal Dafe",
     btId: "BT250602CS",
     role: "Lead Developer",
-    email: "student1@college.edu",
-    phone: "+91 98765 43210",
+    email: "harshaldafe15@gmail.com",
+    phone: "+91 8087615576",
     image: "https://res.cloudinary.com/dmr7jcc2z/image/upload/v1771920763/20260106_150538_f6t76e.jpg" // image changes
   },
   {
@@ -56,7 +56,7 @@ export const About: React.FC = () => {
           <div className="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-sage-200 via-lavender-200 to-sky-200" />
           
           <span className="inline-block py-1 px-3 rounded-full bg-white border border-slate-100 text-xs font-semibold tracking-widest text-slate-400 uppercase mb-6 transition-transform duration-300 hover:scale-105">
-            Academic Project
+            Academic Project 2026
           </span>
           
           <h2 className="font-serif text-3xl md:text-5xl text-slate-800 leading-tight mb-4">

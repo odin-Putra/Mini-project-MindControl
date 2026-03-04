@@ -29,8 +29,8 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
 
       <div className="relative z-10 max-w-4xl mx-auto text-center">
         <h1 className="font-serif text-5xl md:text-7xl text-slate-800 mb-6 leading-tight animate-fade-in-up opacity-0" style={{ animationDelay: '0.2s' }}>
-          Welcome to <br/>
-          <span className="italic text-slate-600">MindControl</span>
+          If you are experiencing stress<br/>
+          <span className="italic text-slate-600">you are not alone</span>
         </h1>
         
         <p className="text-lg md:text-xl text-slate-500 max-w-2xl mx-auto mb-12 font-sans font-light leading-relaxed animate-fade-in-up opacity-0" style={{ animationDelay: '0.4s' }}>

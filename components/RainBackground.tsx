@@ -5,7 +5,8 @@ export const RainBackground: React.FC = () => {
     // Generate drops with random properties
     // Since drops slant to the right (rotate -45deg, move translate(80vh, 120vh)), 
     // we need to start them further left to cover the screen.
-    return Array.from({ length: 80 }).map((_, i) => ({
+    //number of raindrops
+    return Array.from({ length: 120 }).map((_, i) => ({
       id: i,
       left: Math.random() * 140 - 40, // Range from -40% to 100%
       delay: Math.random() * 20,
@@ -19,7 +20,9 @@ export const RainBackground: React.FC = () => {
       {drops.map((drop) => (
         <div
           key={drop.id}
-          className="absolute w-[1px] bg-gradient-to-b from-transparent to-slate-800 rounded-full animate-rainfall"
+          // to-stalte-800 to to-stalte-900 
+          //width w-[1px]
+          className="absolute w-[1px] bg-gradient-to-b from-transparent to-slate-900 rounded-full animate-rainfall"
           style={{
             left: `${drop.left}%`,
             top: `-${drop.length}px`, 
