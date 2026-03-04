@@ -18,7 +18,7 @@ const teamMembers: TeamMember[] = [
     role: "Lead Developer",
     email: "student1@college.edu",
     phone: "+91 98765 43210",
-    image: "https://res.cloudinary.com/dmr7jcc2z/image/upload/v1771920763/20260106_150538_f6t76e.jpg" // Example unsplash image
+    image: "https://res.cloudinary.com/dmr7jcc2z/image/upload/v1771920763/20260106_150538_f6t76e.jpg" // image changes
   },
   {
     name: "Vedant Khade",
@@ -26,7 +26,7 @@ const teamMembers: TeamMember[] = [
     role: "Backend Engineer",
     email: "vedantkhade216@gmail.com",
     phone: "+91 7757048814 ",
-    image: "https://res.cloudinary.com/dmr7jcc2z/image/upload/v1771920674/WhatsApp_Image_2026-02-24_at_13.33.16_lu0ige.jpg" // Example unsplash image
+    image: "https://res.cloudinary.com/dmr7jcc2z/image/upload/v1771920674/WhatsApp_Image_2026-02-24_at_13.33.16_lu0ige.jpg" // image changes
   },
   {
     name: "Sujal Tabhane",
@@ -34,7 +34,7 @@ const teamMembers: TeamMember[] = [
     role: "UI/UX Designer",
     email: "student3@college.edu",
     phone: "+91 98765 43212",
-    image: "https://i.pinimg.com/1200x/bb/00/fb/bb00fbabd0a58d0bc918cb8bd5664837.jpg" // Example unsplash image
+    image: "https://i.pinimg.com/1200x/bb/00/fb/bb00fbabd0a58d0bc918cb8bd5664837.jpg" // image changes
   },
   {
     name: "Harshal Chauhan",
@@ -42,7 +42,7 @@ const teamMembers: TeamMember[] = [
     role: "Research Analyst",
     email: "student4@college.edu",
     phone: "+91 98765 43213",
-    image: "https://i.pinimg.com/1200x/bb/00/fb/bb00fbabd0a58d0bc918cb8bd5664837.jpg" // Example unsplash image
+    image: "https://i.pinimg.com/1200x/bb/00/fb/bb00fbabd0a58d0bc918cb8bd5664837.jpg" // image changes
   }
 ];
 
